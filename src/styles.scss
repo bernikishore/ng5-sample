@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background: #2e9ce6;
+    color: #fff;
+    margin: 0;
+    padding: 3em;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}

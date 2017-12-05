@@ -1,0 +1,43 @@
+$color-dark: #2885c4;
+$color-light: lighten($color-dark, 20%);
+.container {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+.col {
+    padding: .4em 1.3em;
+}
+
+.color-dark {
+    background: $color-dark;
+}
+
+.color-light {
+    background: $color-light;
+}
+
+input.txt {
+    border: 0;
+    margin-bottom: 2em;
+    padding: 1em;
+    width: 80%;
+}
+
+.btn {
+    background: #fc3ad4;
+    padding: 1em 3em;
+    background: #a5f883;
+    margin-bottom: 1em;
+    cursor: pointer;
+    display: block;
+    border: none;
+    &:focus {
+        outline: none;
+    }
+}
+
+.life-container {
+    padding: 10px;
+    background: darken($color-dark, 50%);
+}
